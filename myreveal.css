@@ -1,0 +1,17 @@
+
+.reveal .slides h3 {
+    text-align: left;
+    color: orange;
+}
+.twoImageBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+}
+.imageItem {
+    
+}
+p {
+    text-align: left;
+    }

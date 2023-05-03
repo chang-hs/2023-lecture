@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<link rel="stylesheet" href="myreveal.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+                <section>
+                	<h2>講義の目的</h2>
+                	<p>
+                		<ol>
+                			<li>脳神経外科での脊椎手術</li>
+                			<li>基本的な脊椎疾患の紹介</li>
+                			<li>脊椎の解剖・神経学の復習</li>
+                		</ol>
+                </section>
+                <section>
+                	<h2>概要</h2>
+                	<p>
+                		<ol>
+                			<li>症例を３例提示</li>
+                			<li>症例に関連した基礎知識の復習</li>
+                			<li>実際の手術ビデオ</li>
+                		</ol>
+                	</p>
+                </section>
+                <section>
+                	<section>
+	                	<h2>症例　１</h2>
+	                	<h3>病歴</h3>
+	                	<p>
+	                		４０歳女性。突然の頸部から左上肢に放散する疼痛で発症した。左手の第２−３指にしびれがある。
+	                	</p>
+	                	<h3>神経初見</h3>
+	                	<p>
+	                		Spurling sign陽性。左上腕三頭筋に軽度の筋力低下あり。左手第２−３指に痛覚低下＋
+	                	</p>
+                	</section>
+                	<section>
+	                	<h3>頚椎MRI</h3>
+	                	<div class="twoImageBox">
+							<img src="Kobayashi_Preop_MRI_sagittal.jpg">
+							<img src="Kobayashi_Preop_MRI_axial_T1.jpg">
+	                	</div>
+	                </section>
+					<section>
+						<video data-autoplay loop src="Kobayashi_Kesamatsu_2.mp4"></video>
+					</section>
+                </section>
+            <section>
+                	<h2>まとめ</h2>
+                	<p>
+                		<ul>
+                			<li>脳神経外科での脊椎手術</li>
+                			<li>脊椎の解剖・神経学の復習
+                				<ul>
+                					<li>椎体と脊椎神経根の関係</li>
+                					<li>脊髄経路とBrown-Séquard Syndrome</li>
+                					<li>脊髄レベルによる筋肉支配</li>
+                				</ul>
+                			</li>
+                			<li>基本的な脊椎疾患
+                				<ul>
+                					<li>頚椎椎間板ヘルニア</li>
+                					<li>脊髄腫瘍</li>
+                					<li>腰部脊柱管狭窄症</li>
+                				</ul>
+                			</li>
+                		</ul>
+                	</p>
+        	</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
